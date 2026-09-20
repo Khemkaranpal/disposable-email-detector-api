@@ -10,7 +10,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-RAPIDAPI_SECRET = "DISABLED"
+RAPIDAPI_SECRET = "d8567c40-b525-11f1-8dcf-d55eb89b0915"
 
 # Global set for 5000+ community reported disposable domains
 DISPOSABLE_DOMAINS = set()
