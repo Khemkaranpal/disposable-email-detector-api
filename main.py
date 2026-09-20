@@ -64,7 +64,7 @@ def inspect_mx(domain: str):
     except Exception:
         return False, [], False
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def health():
     return {
         "status": "online",
